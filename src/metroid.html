@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Metroid</title>
+    <link href="css/metroid.css" rel="stylesheet" type="text/css">
+    <script src="loader.ts"></script>
+    <script src="keyboard.ts"></script>
+    <script src="zoomer.ts"></script>
+    <script src="config.ts"></script>
+    <script src="metroid.ts"></script>
+</head>
+
+<body>
+    <div id="display">
+        <div>
+            <img id="block_0" src="img/block_0.jpg">
+            <img id="block_1" src="img/block_1.jpg">
+            <img id="block_2" src="img/block_2.jpg">
+            <img id="block_3" src="img/block_3.jpg">
+            <img id="zoomer" src="img/zoomer.jpg">
+            <br/>
+            <input type="checkbox" id="c1" checked>Background</label>
+            <br/>
+            <input type="checkbox" id="c2" checked>Map</label>
+            <input type="checkbox" id="c5">Grid</label>
+            <input type="checkbox" id="c4">FPS</label>
+            <br/>
+            <input type="checkbox" id="c3" checked>Zoomers</label>
+            <br/>
+            <canvas id="controllerCanvas"></canvas>
+        </div>
+        <div>
+            <canvas id="metroidCanvas"></canvas>
+        </div>
+    </div>
+</body>
+
+</html>

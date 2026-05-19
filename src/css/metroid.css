@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(40, 40, 40); 
+    color: rgb(248, 203, 0);
+}
+
+canvas, img {
+    border: 1px solid  rgb(248, 203, 0);
+}
+
+#display {
+    width: 650px;XX
+}

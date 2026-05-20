@@ -86,23 +86,6 @@ This is a useful example of how movement rules and tile-based collision checks c
 - `requestAnimationFrame` drives the update/render loop
 - `renderGame()` redraws canvases only when needed or when grid mode is active
 
-## Running the Project
-
-This project is intentionally simple, but it does not include an automated build system. Use one of these approaches:
-
-1. Open `src/metroid.html` in a browser if your editor supports TypeScript execution in-browser.
-2. Transpile `.ts` files to `.js` using `tsc`, then update the `<script>` tags in `src/metroid.html` to load `.js` files instead.
-3. Serve the `src/` folder with a local web server (recommended) so asset loading behaves consistently.
-
-Example using Python:
-
-```bash
-cd /Users/fred/Desktop/Workspaces/Metroid-2D-Engine/src
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000/metroid.html`.
-
 ## Learning Exercises
 
 This engine is a strong starting point for many extensions and experiments:

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Metroid 2D Engine</title>
+    <link href="src/css/metroid.css" rel="stylesheet" type="text/css">
+    <script src="dist/loader.js"></script>
+    <script src="dist/keyboard.js"></script>
+    <script src="dist/zoomer.js"></script>
+    <script src="dist/config.js"></script>
+    <script src="dist/metroid.js"></script>
+</head>
+<body>
+    <div id="display">
+        <div>
+            <img id="block_0" src="src/img/block_0.jpg">
+            <img id="block_1" src="src/img/block_1.jpg">
+            <img id="block_2" src="src/img/block_2.jpg">
+            <img id="block_3" src="src/img/block_3.jpg">
+            <img id="zoomer" src="src/img/zoomer.jpg">
+            <br/>
+            <input type="checkbox" id="c1" checked>Background</input>
+            <br/>
+            <input type="checkbox" id="c2" checked>Map</input>
+            <input type="checkbox" id="c5">Grid</input>
+            <input type="checkbox" id="c4">FPS</input>
+            <br/>
+            <input type="checkbox" id="c3" checked>Zoomers</input>
+            <br/>
+            <canvas id="controllerCanvas"></canvas>
+        </div>
+        <div>
+            <canvas id="metroidCanvas"></canvas>
+        </div>
+    </div>
+</body>
+</html>

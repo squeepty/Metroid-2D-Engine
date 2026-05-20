@@ -115,3 +115,18 @@ By reading and modifying this code, learners can gain confidence in the foundati
 - how separate responsibilities make a project easier to understand and extend
 
 Enjoy exploring the code and turning this prototype into a richer 2D game engine!
+
+## Run from GitHub or locally
+
+This project now includes a root `index.html` and generated `dist/` JavaScript output so it can be served directly from a Git URL via GitHub Pages or opened locally after building.
+
+- Run locally:
+  1. `npm install`
+  2. `npm run build`
+  3. Open `index.html` in your browser
+- Run on GitHub Pages:
+  1. Push the repo to GitHub
+  2. Enable GitHub Pages from the repository settings
+  3. Visit `https://<your-username>.github.io/<repo-name>/`
+
+If you want a direct GitHub Pages URL, make sure the Pages source is set to the `main` branch and root folder.

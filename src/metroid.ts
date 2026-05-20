@@ -86,8 +86,8 @@ window.onload = () => {
     // Loader
     //
     loader = new Loader();
-    loader.loadImage("zoomer","./img/zoomer.jpg");
-    loader.loadImage("controller","./img/controller.jpg");
+    loader.loadImage("zoomer","src/img/zoomer.jpg");
+    loader.loadImage("controller","src/img/controller.jpg");
     //
     // Images
     // 
